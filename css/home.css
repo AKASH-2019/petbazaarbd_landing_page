@@ -1,0 +1,34 @@
+:root {
+    --brand-color: #FF740B; 
+    --secondary-brand-color: #65C178;
+    /* --brand-color: #D6C41F;  */
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link-custom {
+    color: #fff !important; 
+    font-size: 23px;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-link-custom:hover {
+    border-bottom: 1px solid rgb(235, 47, 47);
+}
+
+/* .nav-link-custom:not(:last-child):after {
+    margin-right: 3px;
+} */
+
+
+
+[class^=flaticon-]:before,
+[class*=" flaticon-"]:before,
+[class^=flaticon-]:after,
+[class*=" flaticon-"]:after {
+  font-size: inherit;
+  margin-left: 0;
+}
+
